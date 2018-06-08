@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'lua-quickcheck'
-version = '0.2-1'
+version = '0.2-2'
 -- LuaDist source
 source = {
-  tag = "0.2-1",
+  tag = "0.2-2",
   url = "git://github.com/LuaDist-testing/lua-quickcheck.git"
 }
 -- Original source
 -- source = {
 --   url = 'git://github.com/Primordus/lua-quickcheck',
---   tag = 'v0.2-1'
+--   tag = 'v0.2-2'
 -- }
 description = {
   summary = 'Property based testing library for Lua',
