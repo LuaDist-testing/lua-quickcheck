@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'lua-quickcheck'
-version = '0.2-0'
+version = '0.2-1'
 -- LuaDist source
 source = {
-  tag = "0.2-0",
+  tag = "0.2-1",
   url = "git://github.com/LuaDist-testing/lua-quickcheck.git"
 }
 -- Original source
 -- source = {
 --   url = 'git://github.com/Primordus/lua-quickcheck',
---   tag = 'v0.2-0'
+--   tag = 'v0.2-1'
 -- }
 description = {
   summary = 'Property based testing library for Lua',
@@ -67,7 +67,8 @@ build = {
     ['lqc.config'] = 'lqc/config.lua',
     ['lqc.property'] = 'lqc/property.lua',
     ['lqc.fsm'] = 'lqc/fsm.lua',
-    ['lqc.threading.thread_pool'] = 'lqc/threading/thread_pool.lua'
+    ['lqc.threading.thread_pool'] = 'lqc/threading/thread_pool.lua',
+    ['lqc.threading.msg_processor'] = 'lqc/threading/msg_processor.lua'
   },
   install = {
     bin = {
